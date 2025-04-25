@@ -34,3 +34,20 @@ mcp run C:\Users\user\project
 ## Usage
 
 Once the server is running, you can interact with it through the MCP CLI or any compatible client. Ensure that your client is configured to communicate with the server.
+
+### Cursor
+
+Place this to you cursor `mcp.json` config:
+
+```
+{
+  "mcpServers": {
+    "greetings": {
+      "command": "mcp run",
+      "args": [
+        "C:\Users\user\project"
+      ]
+    }
+  }
+}
+```
